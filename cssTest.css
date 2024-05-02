@@ -1,5 +1,5 @@
 h1 {
-    color: red;
+    color: green;
     margin-left: 5rem;
     margin-top: 3rem;
 }
@@ -39,21 +39,57 @@ h2 {
 .bleu {
     color: blue;
     background-color: blue;
-    width: 300px;
-    height: 600px;
+    width: 30px;
+    height: 60px;
 }
 .blanc {
     background-color: white;
-    width: 300px;
-    height: 600px;
+    width: 30px;
+    height: 60px;
 }
 .rouge {
     color: red;
     background-color: red;
-    width: 300px;
-    height: 600px;
+    width: 30px;
+    height: 60px;
 
 }
 #drapeau {
     display: flex;
+    justify-content: center;
+}
+.cercleBleu {
+    color: blue;
+    width: 30px;
+    height: 60px;
+    border: 3px;
+    border-radius: 50%;
+}
+.cercleJaune {
+    color: yellow;
+    width: 30px;
+    height: 60px;
+    border: 3px;
+    border-radius: 50%;
+}
+.cercleNoir {
+    color: black;
+    width: 30px;
+    height: 60px;
+    border: 3px;
+    border-radius: 50%;
+}
+.cercleVert {
+    color: green;
+    width: 30px;
+    height: 60px;
+    border: 3px;
+    border-radius: 50%;
+}
+.cercleRouge {
+    color: red;
+    width: 30px;
+    height: 60px;
+    border: 3px;
+    border-radius: 50%;
 }
